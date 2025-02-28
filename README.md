@@ -27,7 +27,8 @@ Queries that are outside the scope of the system (e.g., "What is the weather tod
 Steps: LLM generates a polite response indicating the question is out of scope → Suggests relevant questions within the system’s scope.
 
 Technical Stack:
-LLM: Pre-trained large language models (e.g., GPT-4) for query interpretation and code generation.
-SQL Database: Storing structured data (e.g., Nifty 50 financial data) that can be queried based on user requests.
-Python: Used for data manipulation and analysis (with libraries like pandas), allowing the system to generate insights from the raw data.
-APIs/Integrations: Used to create an interface between the LLM, SQL database, and Python execution environment.
+
+1) LLM: Pre-trained large language models (e.g., GPT-4) for query interpretation and code generation.
+2) SQL Database: Storing structured data (e.g., Nifty 50 financial data) that can be queried based on user requests.
+3) Python: Used for data manipulation and analysis (with libraries like pandas), allowing the system to generate insights from the raw data.
+4) APIs/Integrations: Used to create an interface between the LLM, SQL database, and Python execution environment.
